@@ -3,14 +3,14 @@ import CompanyInfo from "./CompanyInfo";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-8 relative">
+    <div className="min-h-screen flex flex-col items-center justify-center p-8 relative bg-white">
       {/* Quantex Logo at top */}
       <div className="absolute top-8 left-1/2 transform -translate-x-1/2">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gradient-to-r from-blue-400 via-purple-500 to-yellow-400 rounded-full flex items-center justify-center">
             <div className="w-4 h-4 bg-white rounded-full"></div>
           </div>
-          <span className="text-white text-2xl font-bold tracking-wider">QUANTEX</span>
+          <span className="text-black text-2xl font-bold tracking-wider">QUANTEX</span>
         </div>
       </div>
 
