@@ -61,7 +61,6 @@ const Hero = () => {
                 <source src="videos/video4.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              
               {!videoStarted && (
                 <div className="absolute inset-0 z-10 flex items-center justify-center bg-black/40 cursor-pointer">
                   <button
