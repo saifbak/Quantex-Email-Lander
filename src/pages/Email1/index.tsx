@@ -53,10 +53,10 @@ const EmailTemplatePage1 = () => {
                     style={{
                         position: "absolute",
                         left: "50%",
-                        top: "44%", // Tweak these values as needed!
+                        top: "41.5%", // Tweak these values as needed!
                         transform: "translate(-50%, 0)",
                         width: "75.5%",
-                        height: "22.2%",
+                        height: "22.4%",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
