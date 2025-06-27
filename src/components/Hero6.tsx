@@ -32,7 +32,7 @@ const Hero = () => {
         />
       </div>
       <div className="w-full max-w-6xl mx-auto flex flex-col items-center">
-        <div className="relative w-full max-w-4xl mb-8">
+        <div className="relative w-full max-w-5xl mb-8">
           <div className="p-1 bg-gradient-to-r from-purple-500 via-blue-400 to-yellow-400 rounded-xl md:rounded-3xl">
             <div className="bg-slate-900 rounded-xl md:rounded-3xl overflow-hidden relative">
               <ReactPlayer
