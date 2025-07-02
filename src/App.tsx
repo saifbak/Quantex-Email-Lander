@@ -13,6 +13,8 @@ import Index7 from "./pages/Landing7/Index";
 import Index8 from "./pages/Landing8/Index";
 import Index9 from "./pages/Landing9/Index";
 import Index10 from "./pages/Landing10/Index";
+import Index11 from "./pages/Landing11/Index";
+import Index12 from "./pages/Landing12/Index";
 import NotFound from "./pages/NotFound";
 import EmailTemplatePage from "./pages/Email1";
 import EmailTemplatePage2 from "./pages/Email2";
@@ -24,6 +26,8 @@ import EmailTemplatePage7 from "./pages/Email7";
 import EmailTemplatePage8 from "./pages/Email8";
 import EmailTemplatePage9 from "./pages/Email9";
 import EmailTemplatePage10 from "./pages/Email10";
+import EmailTemplatePage12 from "./pages/Email12";
+import EmailTemplatePage11 from "./pages/Email11";
 
 const queryClient = new QueryClient();
 
@@ -44,6 +48,8 @@ const App = () => (
           <Route path="/shainnah-mae-magleo" element={<Index8 />} />
           <Route path="/rehab-nasreldeen-rateb-abdelaleem" element={<Index9 />} />
           <Route path="/mai-mohamed-fathi-mohamed-elsayed" element={<Index10 />} />
+          <Route path="/sherine-emad-nassim" element={<Index11 />} />
+          <Route path="/nouran-a-fahmy" element={<Index12 />} />
           <Route path="/email-abdullah-zainab" element={<EmailTemplatePage />} />
           <Route path="/email-mai-hendy" element={<EmailTemplatePage2 />} />
           <Route path="/email-rehab-nasr-eldin" element={<EmailTemplatePage3 />} />
@@ -54,6 +60,8 @@ const App = () => (
           <Route path="/email-shainnah-mae-magleo" element={<EmailTemplatePage8 />} />
           <Route path="/email-rehab-nasreldeen-rateb-abdelaleem" element={<EmailTemplatePage9 />} />
           <Route path="/email-mai-mohamed-fathi-mohamed-elsayed" element={<EmailTemplatePage10 />} />
+          <Route path="/email-sherine-emad-nassim" element={<EmailTemplatePage11 />} />
+          <Route path="/email-nouran-a-fahmy" element={<EmailTemplatePage12 />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
