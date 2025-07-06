@@ -15,6 +15,12 @@ import Index9 from "./pages/Landing9/Index";
 import Index10 from "./pages/Landing10/Index";
 import Index11 from "./pages/Landing11/Index";
 import Index12 from "./pages/Landing12/Index";
+import Index13 from "./pages/Landing13/Index";
+import Index14 from "./pages/Landing14/Index";
+import Index15 from "./pages/Landing15/Index";
+import Index16 from "./pages/Landing16/Index";
+import Index17 from "./pages/Landing17/Index";
+import Index18 from "./pages/Landing18/Index";
 import NotFound from "./pages/NotFound";
 import EmailTemplatePage from "./pages/Email1";
 import EmailTemplatePage2 from "./pages/Email2";
@@ -26,8 +32,15 @@ import EmailTemplatePage7 from "./pages/Email7";
 import EmailTemplatePage8 from "./pages/Email8";
 import EmailTemplatePage9 from "./pages/Email9";
 import EmailTemplatePage10 from "./pages/Email10";
-import EmailTemplatePage12 from "./pages/Email12";
 import EmailTemplatePage11 from "./pages/Email11";
+import EmailTemplatePage12 from "./pages/Email12";
+import EmailTemplatePage13 from "./pages/Email13";
+import EmailTemplatePage14 from "./pages/Email14";
+import EmailTemplatePage15 from "./pages/Email15";
+import EmailTemplatePage16 from "./pages/Email16";
+import EmailTemplatePage17 from "./pages/Email17";
+import EmailTemplatePage18 from "./pages/Email18";
+
 
 const queryClient = new QueryClient();
 
@@ -50,6 +63,12 @@ const App = () => (
           <Route path="/mai-mohamed-fathi-mohamed-elsayed" element={<Index10 />} />
           <Route path="/sherine-emad-nassim" element={<Index11 />} />
           <Route path="/nouran-a-fahmy" element={<Index12 />} />
+          <Route path="/mai" element={<Index13 />} />
+          <Route path="/rehab" element={<Index14 />} />
+          <Route path="/shainnah" element={<Index15 />} />
+          <Route path="/abdullah" element={<Index16 />} />
+          <Route path="/sherine" element={<Index17 />} />
+          <Route path="/nouran" element={<Index18 />} />
           <Route path="/email-abdullah-zainab" element={<EmailTemplatePage />} />
           <Route path="/email-mai-hendy" element={<EmailTemplatePage2 />} />
           <Route path="/email-rehab-nasr-eldin" element={<EmailTemplatePage3 />} />
@@ -62,6 +81,12 @@ const App = () => (
           <Route path="/email-mai-mohamed-fathi-mohamed-elsayed" element={<EmailTemplatePage10 />} />
           <Route path="/email-sherine-emad-nassim" element={<EmailTemplatePage11 />} />
           <Route path="/email-nouran-a-fahmy" element={<EmailTemplatePage12 />} />
+          <Route path="/email-mai" element={<EmailTemplatePage13 />} />
+          <Route path="/email-rehab" element={<EmailTemplatePage14 />} />
+          <Route path="/email-shainnah" element={<EmailTemplatePage15 />} />
+          <Route path="/email-abdullah" element={<EmailTemplatePage16 />} />
+          <Route path="/email-sherine" element={<EmailTemplatePage17 />} />
+          <Route path="/email-nouran" element={<EmailTemplatePage18 />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
